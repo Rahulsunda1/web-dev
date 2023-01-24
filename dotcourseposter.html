@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dot batch</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    .container{
+        background-color: rgb(216, 208, 208);
+        margin: 10px;
+        padding: 5px;
+        border-radius: 10px;
+        max-width: 210px;
+        max-height: 230px;
+        display: flex; 
+        flex-wrap: wrap; 
+        box-shadow: 0px 0px 5px black;  
+    }
+    
+    .pic{
+        margin: 2px;
+        padding: 2px;
+        border-radius: 10px;
+    }
+    #pic1{
+        width: 200px;
+        height: 150px;   
+    }
+    p{
+        font-weight: bold;
+        font-size: large;
+    }
+    #pc{
+        color: rgb(44, 93, 161)
+    }
+    #price{
+    
+       position: relative;
+       left: 60px;
+       bottom: 20px;
+    }
+    #box{
+        color: white;
+        background-color: green;
+        height: 20px;
+        width: 1.7cm;
+        border-radius: 4px;
+        font-size: 99%;
+        position: relative;
+        left: 120px;
+        bottom: 40px;
+        
+    }
+    
+    
+</style>
+<body>
+    <div class="container">
+        <div class="pic">
+            <figure >
+                <img id="pic1" src="dotbatch.jpg">
+                <p>Web Development Master </p>
+                <p>Course @dot Batch</p>
+            
+                 <hr>
+                 
+            </figure>
+           
+        </div>
+         <br>
+         <div class="text">
+            <p id="pc">₹4500 </p>    
+            <del><p id="price" >₹6999</p></del>    
+            <p id="box">42% off</p>
+
+        </div>
+    </div>
+    
+</body>
+</html>
